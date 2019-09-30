@@ -29,12 +29,12 @@ def map_to_double(array)
   arr
 end 
 
-def map_to_double(array) 
+def map_to_square(array) 
   arr = [] 
   i = 0 
   
   while array[i] do 
-      arr << array[i] * 2 
+      arr << array[i] * array[i] 
       i += 1 
   end 
   
