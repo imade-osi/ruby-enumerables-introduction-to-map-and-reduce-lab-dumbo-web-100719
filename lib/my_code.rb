@@ -52,3 +52,5 @@ def reduce_to_total(array)
   
   total 
 end 
+
+def reduce_to_total()
