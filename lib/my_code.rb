@@ -53,7 +53,7 @@ def reduce_to_total(array)
   total 
 end 
 
-def reduce_to_total(array, start)
+def reduce_to_total2(array, start)
   i = 0
   total = 0 
   
