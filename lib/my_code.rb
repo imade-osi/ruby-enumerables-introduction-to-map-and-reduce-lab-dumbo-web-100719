@@ -64,3 +64,15 @@ def reduce_to_total2(array, start)
   
   start + total 
 end 
+
+def reduce_to_all_true(array)
+    i = 0 
+    
+    while array[i] do 
+      if array[i] == false 
+        return false 
+      end 
+      i += 1 
+    end 
+    true 
+end 
