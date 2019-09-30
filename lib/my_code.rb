@@ -76,3 +76,16 @@ def reduce_to_all_true(array)
     end 
     true 
 end 
+
+
+def reduce_to_all_true2(array)
+    i = 0 
+    
+    while array[i] do 
+      if array[i] == false 
+        return false 
+      end 
+      i += 1 
+    end 
+    true 
+end 
