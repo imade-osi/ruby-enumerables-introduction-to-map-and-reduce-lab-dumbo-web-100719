@@ -81,7 +81,7 @@ end
 def reduce_to_all_true2(array)
     i = 0 
     
-    while array[i] do 
+    while i < array.length do 
       if array[i] == false 
         return false 
       end 
